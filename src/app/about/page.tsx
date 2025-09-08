@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Award, Users, Target, Heart } from 'lucide-react';
+import { Award, Users, Target } from 'lucide-react';
+import Image from 'next/image';
 
 const About = () => {
 
@@ -79,9 +80,11 @@ const About = () => {
               viewport={{ once: true }}
               className="relative"
             >
-              <img
+              <Image
                 src="/images/about/about.webp"
                 alt="32tropikey office"
+                width={600}
+                height={400}
                 className="rounded-2xl shadow-2xl"
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-r from-[#B9A590] to-[#A0926B] rounded-2xl opacity-20"></div>

@@ -1,8 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { MapPin, Bed, Bath, Square, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const FeaturedProperties = () => {
   const services = [
@@ -62,9 +63,11 @@ const FeaturedProperties = () => {
             >
               {/* Image */}
               <div className="relative overflow-hidden">
-                <img
+                <Image
                   src={service.image}
                   alt={service.title}
+                  width={400}
+                  height={256}
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 {service.featured && (

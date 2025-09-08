@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Home, Key, TrendingUp, Users, Shield, Award, ArrowRight } from 'lucide-react';
+import { Home, Users, Award, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 const Services = () => {

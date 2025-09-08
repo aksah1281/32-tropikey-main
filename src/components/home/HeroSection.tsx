@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
@@ -10,10 +11,12 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-[#8B7355]/20 to-[#A0926B]/20 z-10"></div>
-        <img
+        <Image
           src="/images/hero/main.png"
           alt="Modern bathroom interior"
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
+          priority
         />
       </div>
 

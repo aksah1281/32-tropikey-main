@@ -29,7 +29,7 @@ const BookNow = () => {
               Book Your <span className="bg-gradient-to-r from-[#B9A590] to-[#A0926B] bg-clip-text text-transparent">Consultation</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Schedule a personalized consultation with our expert team. We're here to help you achieve your property goals.
+              Schedule a personalized consultation with our expert team. We&apos;re here to help you achieve your property goals.
             </p>
           </motion.div>
         </div>
